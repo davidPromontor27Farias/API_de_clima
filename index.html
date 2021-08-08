@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiempo</title>
+  <link rel="stylesheet" href="/build/css/app.css">
+</head>
+<body>
+    <div class="contenedor">
+      <h1 class="titulo">Busca el clima de tu ciudad</h1>
+      <div class="cuerpo-contenedor">
+
+        <div class="contenedor-resultados">
+          <p class="resultados-alerta">El resultado de tu busqueda se vera reflejado aqui</p>
+        </div>
+
+        <div class="formulario-contenedor">
+          <form class="formulario">
+
+            <div class="input-contenidos">
+              <label for="ciudad">Ciudad</label>
+              <input type="text" id="ciudad" placeholder="Veracruz">              
+            </div>
+
+            <div class="input-contenidos">
+              <label for="pais">Pais</label>
+              <select name="pais" id="pais">
+                <option value="">--seleccione--</option>
+                <option value="MX">Mexico</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="ES">España</option>
+                <option value="US">Estados unidos</option>
+                <option value="PE">Peru</option>
+              </select>
+            </div>
+
+            <input type="submit" class="buscar" value="Buscar clima">              
+          
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+  <script src="/build/js/bundle.min.js"></script>
+</body>
+</html>
