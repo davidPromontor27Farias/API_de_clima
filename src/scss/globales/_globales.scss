@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: $fuente-principal;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+    color: $negro;
+}
+img{
+    width: 100%;
+    padding: 0;
+}

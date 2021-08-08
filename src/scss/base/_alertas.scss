@@ -1,0 +1,46 @@
+.mensaje-alerta{
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: rgb(187, 42, 42);
+    padding: 1rem;
+    border-radius: .5rem;
+    border-color: rgb(235, 4, 4);
+}
+
+.divContenido{
+    .temperatura{
+        text-align: center;
+        font-size: 8rem;
+        font-weight: $gruesa;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        transition: all .5s ease-in;
+ 
+
+        &:hover{
+            color: black;
+        }
+    }
+
+    .maxima{
+        font-size: 4rem;
+
+        transition: all .3s ease-in;
+
+
+    }
+    .minima{
+        font-size: 3rem;
+
+        transition: all .3s ease-in;
+
+
+    }
+    .titulo-lugar{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .negrita{
+        font-weight: $ultra-gruesa;
+    }
+}
